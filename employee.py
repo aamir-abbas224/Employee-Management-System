@@ -125,7 +125,7 @@ class Employee:
          return salary  
              
     def validate_status(self,status):
-        valid_status = ['Active','Inactive','Leave','Vacation'] #Leave = includes all kinds leave such as Emergency, medical etc except Vacation
+        valid_status = ['Active','Inactive','Leave','Vacation','Exit'] #Leave = includes all kinds leave such as Emergency, medical etc except Vacation
         status_cap = status.strip().title()
         if status_cap not in valid_status:
             raise ValueError('Invalid Status')
