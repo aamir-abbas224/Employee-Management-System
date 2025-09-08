@@ -1,2 +1,9 @@
-# Employee-Management-System
-A Simple Employee Management System that stores details in a database(sqlite). Output is on command line ! please note that it is still under upgrade......
+# Employee Management System
+A simple Python-based Employee Management System that stores employee details in an SQLite database. Command-line interface output. Currently under active development.
+## Features
+- Add, update, and delete employee records
+- Generate employee reports
+- Store data securely in SQLite database
+- Simple command-line interface
+
+please note that it is still under update and work as i am working on it!
