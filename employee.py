@@ -120,7 +120,7 @@ class Employee:
             raise UnboundLocalError(f"Error : {e}")        
                 
     def validate_salary(self,salary):
-         if salary < 0:
+         if not isinstance(salary,(int,float)) or salary < 0:
              raise ValueError('Error! Negative Salary') 
          return salary  
              
@@ -429,4 +429,5 @@ if __name__ == "__main__":
             print('Exited')    
             break
         else:
+
             print("Invalid choice. Try again.")        
