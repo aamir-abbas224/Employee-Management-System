@@ -6,4 +6,3 @@ A simple Python-based Employee Management System that stores employee details in
 - Store data securely in SQLite database
 - Simple command-line interface
 
-please note that it is still under update and work as i am working on it!
